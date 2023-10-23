@@ -1,0 +1,16 @@
+- chunksize : number document processed at a time (default = 2000)
+
+- passes : determines the number of times the entire training corpus is iterated during the model training process.
+-Each pass represents a complete iteration over the entire corpus (default = 1)
+-By default, the value of passes is set to 1. This means that the model goes through a single pass over the corpus. Increasing the value of passes can potentially improve the quality of the resulting topics by allowing the model to see the documents multiple times and refine its estimates.
+
+-iterations : the number of iterations performed for each document during training (default = 50)
+-This means that for each document, the model will perform 50 iterations to update the topic assignments. Increasing the value of iterations can potentially improve the convergence of the model and lead to better topic quality, but it also increases the training time.
+
+-It's important to note that the iterations parameter should not be confused with the passes parameter. The iterations parameter controls the number of iterations within each document, while the passes parameter determines the number of times the model goes through the entire corpus.
+
+# Hapus 'apple' 'ink' bahasa inggris
+# kembang, pek, main,simak,liga,tahun
+
+kembang = perkembangan
+pek = pekan

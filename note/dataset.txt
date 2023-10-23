@@ -1,0 +1,20 @@
+tvOneNews = ada kata 'saksikan', 'hanya di tvone & live streaming'
+
+liputan6dotcom = ada kata 'FOTO:' atau 'VIDEO:'
+
+kompastv = ada kata 'pembahasan selengkapnya', 'streaming'
+
+okezonenews = banyak hastag
+
+tribunnews = 'link ... via @tribunnews'
+
+'sumber'
+'ribu'
+'selengkapnya'
+'via'
+'tribunnews'
+
+tes stemmer 
+'hatihati'
+'masingmasing'
+'meninggal'

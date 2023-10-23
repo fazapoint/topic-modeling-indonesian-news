@@ -1,0 +1,16 @@
+#### BUAT KERNEL BARU ###
+
+conda install ipykernel
+
+python -m ipykernel install --user --name=myenv
+
+conda deavtivate
+
+jupyter lab
+
+
+### HAPUS KERNEL ###
+
+jupyter kernelspec list
+
+jupyter kernelspec uninstall unwanted-kernel

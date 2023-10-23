@@ -1,0 +1,15 @@
+user_timeline()
+
+for pages in tweepy.Cursor(api.user_timeline, id='id', count=200).pages():        
+   print(pages)
+
+for status in tweepy.Cursor(api.user_timeline, screen_name='@realDonaldTrump', tweet_mode="extended").items():
+    print(status.full_text)
+
+
+=== max_id since_id ===
+ new_tweets = api.search(q=query, count=count, max_id=str(last_id - 1))
+        if not new_tweets:
+            break
+        searched_tweets.extend(new_tweets)
+        last_id = new_tweets[-1].id

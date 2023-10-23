@@ -1,0 +1,3 @@
+pencurian (from:detikcom OR from:kompascom OR from:okezonenews) lang:id
+
+polisi (from:detikcom OR from:kompascom OR from:okezonenews) until:2021-06-21 since:2021-06-20

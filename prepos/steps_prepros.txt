@@ -1,0 +1,4 @@
+1. check duplicate (DONE)
+2. Remove newlines
+3. convert all words to lowercase
+? remove extra whitespace?
